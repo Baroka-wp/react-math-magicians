@@ -1,6 +1,82 @@
-# Getting Started with Create React App
+![screenshot](#)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+
+# Math Magician - React project
+
+> CUBIS FOOD is an application that allows you to find meal ideas that you can make simply with the ingredients you have.
+
+## LOOM VIDEO PRESENTING
+[Watch the presentation of the projet on Zoom](#)
+
+## Built With
+
+- Html
+- Css
+- Js
+- Linter
+- React - Redux
+
+## Mookup
+![free](#)
+
+## Live
+
+[Go Live](#)
+
+## Authors
+
+👤 **Author : IROTORI Baroka**
+
+- GitHub: [baroka-wp](https://github.com/Baroka-wp)
+- Twitter: [IrotoriB](https://twitter.com/IrotoriB)
+- LinkedIn: [baroka](www.linkedin.com/in/baroka)
+
+👥 **Co Author : ADISA Hammed**
+
+## Install
+### Run the project in your local machine
+
+- Clone the repository
+```
+  git clone https://github.com/Baroka-wp/cubis.git
+
+  cd Cubis
+```
+- install all dependances
+
+```
+npm install
+```
+
+- Run the server
+
+```
+npm start
+```
+- Open your browzer and go to [localhost:8080](http://localhost:8080/)
+
+
+### Run Linters tests
+To track linter errors locally follow these steps:  
+
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint ."
+```
+### Run local server
 
 ## Available Scripts
 
@@ -31,40 +107,21 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+- github page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
