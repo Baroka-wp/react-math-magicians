@@ -1,10 +1,7 @@
-![screenshot](#)
-
-<br />
-
 # Math Magician - React project
-
-> CUBIS FOOD is an application that allows you to find meal ideas that you can make simply with the ingredients you have.
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+- Make simple calculations.
+- Read a random math-related quote.
 
 ## LOOM VIDEO PRESENTING
 [Watch the presentation of the projet on Zoom](#)
