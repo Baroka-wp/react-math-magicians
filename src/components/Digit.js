@@ -1,5 +1,4 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable no-useless-constructor */
+/* eslint-disable no-useless-constructor, react/prefer-stateless-function */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,7 +8,9 @@ class Digit extends Component {
   }
 
   render() {
-    const { digitText, symbole, clear } = this.props;
+    const {
+      digitText, symbole, clear, handleInput,
+    } = this.props;
     let myclass = 'num';
     if (symbole) {
       myclass += ' symbole';
@@ -18,15 +19,28 @@ class Digit extends Component {
     }
 
     return (
-      <span className={myclass}>{digitText}</span>
+      <button
+        type="button"
+        className={myclass}
+        onClick={() => handleInput(digitText)}
+      >
+        {digitText}
+      </button>
     );
   }
 }
 
+Digit.defaultProps = {
+  symbole: false,
+  clear: false,
+  handleInput: null,
+};
+
 Digit.propTypes = {
   digitText: PropTypes.string.isRequired,
-  symbole: PropTypes.bool.isRequired,
-  clear: PropTypes.bool.isRequired,
+  handleInput: PropTypes.func,
+  symbole: PropTypes.bool,
+  clear: PropTypes.bool,
 };
 
 export default Digit;
