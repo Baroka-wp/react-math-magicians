@@ -1,39 +1,55 @@
 import React, { Component } from 'react';
-import './Calculator.css';
 import Digit from './Digit';
+import calculate from '../logic/calculate';
+import './Calculator.css';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.state = { value: 0 };
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    this.handleInput = this.handleInput.bind(this);
+  }
+
+  handleInput(digitText) {
+    const { total, next, operation } = this.state;
+    const calculator = calculate({ total, next, operation }, digitText);
+    this.setState({
+      total: calculator.total,
+      next: calculator.next,
+      operation: calculator.operation,
+    });
   }
 
   render() {
-    const { value } = this.state;
+    const { total, next, operation } = this.state;
     return (
       <div>
-        <form className="calculator">
-          <input type="text" value={value} className="value" readOnly />
-          <Digit digitText="AC" />
-          <Digit digitText="+/-" />
-          <Digit digitText="%" />
-          <Digit digitText="÷" symbole />
-          <Digit digitText="7" />
-          <Digit digitText="8" />
-          <Digit digitText="9" />
-          <Digit digitText="x" symbole />
-          <Digit digitText="4" />
-          <Digit digitText="5" />
-          <Digit digitText="6" />
-          <Digit digitText="-" symbole />
-          <Digit digitText="1" />
-          <Digit digitText="2" />
-          <Digit digitText="3" />
-          <Digit digitText="+" symbole />
-          <Digit digitText="0" clear />
-          <Digit digitText="." />
-          <Digit digitText="=" symbole />
-        </form>
+        <div className="calculator">
+          <div className="operant">{total || next || operation}</div>
+          <Digit digitText="AC" handleInput={this.handleInput} />
+          <Digit digitText="+/-" handleInput={this.handleInput} />
+          <Digit digitText="%" handleInput={this.handleInput} />
+          <Digit digitText="÷" symbole handleInput={this.handleInput} />
+          <Digit digitText="7" handleInput={this.handleInput} />
+          <Digit digitText="8" handleInput={this.handleInput} />
+          <Digit digitText="9" handleInput={this.handleInput} />
+          <Digit digitText="x" symbole handleInput={this.handleInput} />
+          <Digit digitText="4" handleInput={this.handleInput} />
+          <Digit digitText="5" handleInput={this.handleInput} />
+          <Digit digitText="6" handleInput={this.handleInput} />
+          <Digit digitText="-" symbole handleInput={this.handleInput} />
+          <Digit digitText="1" handleInput={this.handleInput} />
+          <Digit digitText="2" handleInput={this.handleInput} />
+          <Digit digitText="3" handleInput={this.handleInput} />
+          <Digit digitText="+" symbole handleInput={this.handleInput} />
+          <Digit digitText="0" clear handleInput={this.handleInput} />
+          <Digit digitText="." handleInput={this.handleInput} />
+          <Digit digitText="=" symbole handleInput={this.handleInput} />
+        </div>
       </div>
     );
   }

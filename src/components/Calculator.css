@@ -17,7 +17,7 @@ body {
   display: grid;
 }
 
-.calculator .value {
+.calculator .operant {
   background: #4e554f;
   color: #fff;
   grid-column: span 4;
@@ -29,7 +29,7 @@ body {
   font-size: 18px;
 }
 
-.calculator span {
+.calculator button {
   cursor: pointer;
   display: grid;
   width: 60px;
@@ -40,16 +40,16 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.calculator span:active {
+.calculator button:active {
   background: #74ff3b !important;
   color: #111;
 }
 
-.calculator span.clear {
+.calculator button.clear {
   grid-column: span 2;
   width: 120px;
 }
 
-.calculator span.symbole {
+.calculator button.symbole {
   background: #e89b0e;
 }
