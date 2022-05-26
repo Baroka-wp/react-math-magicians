@@ -19,11 +19,7 @@ class Digit extends Component {
     }
 
     return (
-      <button
-        type="button"
-        className={myclass}
-        onClick={() => handleInput(digitText)}
-      >
+      <button type="button" className={myclass} onClick={() => handleInput(digitText)}>
         {digitText}
       </button>
     );
