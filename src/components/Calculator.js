@@ -3,13 +3,12 @@ import Digit from './Digit';
 import calculate from '../logic/calculate';
 import './Calculator.css';
 
-const Calculator = () => {
-
+function Calculator() {
   const [state, setState] = useState({});
 
   const handleInput = (digitText) => {
     setState(calculate(state, digitText));
-  }
+  };
 
   const { total, next, operation } = state;
   return (
