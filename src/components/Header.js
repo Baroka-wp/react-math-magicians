@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Header() {
   return (
     <header className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-      <NavLink to="/calculator" className="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6">
+      <NavLink to="/math-magicians/calculator" className="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6">
         Math Magicians
       </NavLink>
       <button
@@ -20,7 +20,7 @@ function Header() {
       </button>
       <div className="navbar-nav">
         <div className="nav-item text-nowrap">
-          <NavLink to="/calculator" className="nav-link px-3">
+          <NavLink to="/math-magicians/calculator" className="nav-link px-3">
             Try Now
           </NavLink>
         </div>
