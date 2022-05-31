@@ -8,19 +8,19 @@ function SideNav() {
       <div className="position-sticky pt-3">
         <ul className="nav flex-column">
           <li className="nav-item">
-            <NavLink to="/math-magicians" className="nav-link" aria-current="page">
+            <NavLink to="/react-math-magicians" className="nav-link" aria-current="page">
               <FeatherIcon className="align-text-bottom" icon="user" />
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/math-magicians/calculator" className="nav-link active" aria-current="page">
+            <NavLink to="/react-math-magicians/calculator" className="nav-link active" aria-current="page">
               <FeatherIcon className="align-text-bottom" icon="percent" />
               Calculator
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/math-magicians/quotes" className="nav-link active" aria-current="page">
+            <NavLink to="/react-math-magicians/quotes" className="nav-link active" aria-current="page">
               <FeatherIcon className="align-text-bottom" icon="align-left" />
               Quotes
             </NavLink>

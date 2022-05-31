@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/quotes" element={<Quotes />} />
+        <Route path="/react-math-magicians" element={<Home />} />
+        <Route path="/react-math-magicians/calculator" element={<Calculator />} />
+        <Route path="/react-math-magicians/quotes" element={<Quotes />} />
       </Routes>
 
     );
