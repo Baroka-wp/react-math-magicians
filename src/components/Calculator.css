@@ -4,12 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.App {
   min-height: 100vh;
-  background-color: #cedfd0;
+  background-color: #424843;
+  color: antiquewhite;
 }
 
 .calculator {
@@ -27,13 +25,16 @@ body {
   outline: none;
   padding: 10px;
   font-size: 18px;
+  overflow: scroll;
 }
 
 .calculator button {
   cursor: pointer;
   display: grid;
-  width: 60px;
-  height: 60px;
+  width: auto;
+  height: auto;
+  min-height: 60px;
+  min-width: 60px;
   color: #fff;
   background: #0c2835;
   place-items: center;
@@ -52,4 +53,8 @@ body {
 
 .calculator button.symbole {
   background: #e89b0e;
+}
+
+.sidebar {
+  background: #4e554f;
 }

@@ -13,6 +13,16 @@ function Calculator() {
   const { total, next, operation } = state;
   return (
     <div>
+      <h2
+        style={{
+          fontSize: '2rem',
+          fontWeight: '600',
+          color: '#ececec',
+        }}
+      >
+        CALCULATOR
+      </h2>
+      <p>Let&apos;s do some math !</p>
       <div className="calculator">
         <div className="operant">{total || next || operation}</div>
         <Digit digitText="AC" handleInput={handleInput} />
