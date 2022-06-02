@@ -16,10 +16,10 @@
 
 ## Live
 
-[Go Live: Git Page](https://baroka-wp.github.io/react-math-magicians)
+
 [Go Live: Netlify ](https://netlify-thinks-baroka-wp-is-great.netlify.app/quotes)
 [Go Live : Heroku ](https://desolate-peak-17199.herokuapp.com)
-
+[Go Live: Git Page](https://baroka-wp.github.io/react-math-magicians)
 
 ## Authors
 
