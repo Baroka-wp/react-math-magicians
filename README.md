@@ -16,8 +16,11 @@
 
 ## Live
 
-[Go Live: Git Page](https://baroka-wp.github.io/react-math-magicians)
+
 [Go Live: Netlify ](https://netlify-thinks-baroka-wp-is-great.netlify.app/quotes)
+[Go Live : Heroku ](https://desolate-peak-17199.herokuapp.com)
+[Go Live: Git Page](https://baroka-wp.github.io/react-math-magicians)
+
 ## Authors
 
 👤 **Author : IROTORI Baroka**
@@ -26,7 +29,7 @@
 - Twitter: [IrotoriB](https://twitter.com/IrotoriB)
 - LinkedIn: [baroka](www.linkedin.com/in/baroka)
 
-👥 **Co Author : ADISA Hammed**
+
 
 ## Install
 ### Run the project in your local machine
