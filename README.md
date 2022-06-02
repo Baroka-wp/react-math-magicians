@@ -14,12 +14,9 @@
 - Linter
 - React - Redux
 
-## Mookup
-![free](#)
-
 ## Live
 
-[Go Live](#)
+[Go Live](https://baroka-wp.github.io/react-math-magicians)
 
 ## Authors
 
